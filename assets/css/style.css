@@ -1,0 +1,67 @@
+body{
+background: radial-gradient(circle,#0f2a66,#020c2b);
+font-family: Arial;
+color:white;
+}
+
+.quiz-card{
+background:#081a4a;
+border-radius:20px;
+width:370px;
+box-shadow:0 0 30px rgba(0,0,0,0.8);
+border:none;
+}
+
+.quiz-title{
+text-shadow:0 0 15px #00c3ff;
+}
+
+.form-control{
+border-radius:10px;
+padding:10px;
+}
+
+.start-btn{
+background:linear-gradient(45deg,#ff7b00,#ff3c00);
+border-radius:12px;
+color:white;
+font-weight:bold;
+transition:0.3s;
+border:none;
+}
+
+.start-btn:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px #ff6a00;
+}
+
+.option{
+font-size:18px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.option:hover{
+transform: scale(1.03);
+transition: 0.2s;
+}
+.card{
+background:#081a4a;
+border-radius:20px;
+max-width:400px;
+margin:auto;
+}
+
+button{
+font-weight:bold;
+}
+
+#countdown{
+margin-top:20px;
+}
+
+#quizBox{
+background:#081a4a;
+border-radius:20px;
+box-shadow:0 10px 40px rgba(0,0,0,0.6);
+}                                                                             
