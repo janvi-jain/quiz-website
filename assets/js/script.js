@@ -238,10 +238,13 @@ function RestartQuiz() {
     score = 0;
     time = 15;
     answered = false;
+
     document.getElementById("result").style.display = "none";
     document.getElementById("welcome").style.display = "none";
     document.getElementById("quizBox").style.display = "none";
+
     let countdown = document.getElementById("countdown");
     countdown.style.display = "block";
+
     startCountdown();
 }
